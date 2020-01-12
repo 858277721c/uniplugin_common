@@ -9,7 +9,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 20200112
-        versionName "1.0.0-beta1"
+        versionName "1.0.0-beta2"
     }
 
     buildTypes {
@@ -22,7 +22,7 @@ android {
 
 dependencies {
     compileOnly fileTree(dir: 'libs', include: ['uniapp-release.aar'])
-    implementation 'com.alibaba:fastjson:1.1.46.android'
+    compileOnly 'com.alibaba:fastjson:1.1.46.android'
 }
 
 // 指定编码
